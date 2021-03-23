@@ -1,0 +1,57 @@
+.main-window {
+    background-color: white;
+    display: flex;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.game-window {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: grid;
+    background-color: black;
+    grid-template-columns: 1fr 1fr;
+    border: 15px solid black;
+    border-radius: 50%;
+}
+
+.top-part {
+    border-radius: 150px 0 25px 0;
+}
+
+
+.left-part {
+    border-radius: 0 25px 0 150px;
+}
+
+
+.right-part {
+    border-radius: 0 150px 0 25px;
+}
+
+
+.bottom-part {
+    border-radius: 25px 0 150px 0;
+}
+
+
+.part {
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: inherit;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 20px
+}
+
